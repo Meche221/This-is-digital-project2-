@@ -13,6 +13,9 @@ html, body {
     height: 100%;
     width: 100%;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #nav{
     height: 100px;
@@ -72,4 +75,48 @@ i{
     font-size: 20px;
     color: rgba(43, 42, 42, 0.748);
     font-weight: 100;
+    z-index: 9;
+}
+#main>h1{
+    font-size: 5.4vw;
+    font-weight: 400;
+    width: 60%;
+    text-align: center;
+    /* background-color: red; */
+    text-transform: capitalize;
+    position: relative;
+    z-index: 10;
+}
+#main>h1::after{
+    content: "";
+    position: absolute;
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+    background-size: cover;
+    width: 38%;
+    height: 16px;
+    /* background-color: blue; */
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+#main #img1{
+    height: 550px;
+    width: 360px;
+    position: absolute;
+    left: 5%;
+    top: 20%;
+}
+#main #img2{
+    height: 230px;
+    width: 260px;
+    position: absolute;
+    right: 27%;
+    top: 18%;
+}
+#main #img3{
+    height: 310px;
+    width: 290px;
+    position: absolute;
+    right: 17%;
+    bottom: 10%;
 }
