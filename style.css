@@ -51,6 +51,7 @@ html, body {
     overflow: hidden;
     display: flex;
     align-items: center;
+    position: relative;
 }
 #part2 a:nth-last-child(1) h5{
     font-weight: 200;
