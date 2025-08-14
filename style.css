@@ -48,7 +48,6 @@ html, body {
     padding: 7px 19px;
     border-radius: 50px;
     border: 1px solid black;
-    position: relative;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -119,4 +118,11 @@ i{
     position: absolute;
     right: 17%;
     bottom: 10%;
+}
+#main img{
+    transition: margin 0.8s ease;
+    cursor: pointer;
+}
+#main img:hover{
+    margin-top: -20px;
 }
