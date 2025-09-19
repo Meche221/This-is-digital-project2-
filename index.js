@@ -1,3 +1,4 @@
+//Using gsap
 gsap.from("#img1", {
     opacity: 0,
     delay: 0.4,
